@@ -1,0 +1,9 @@
+.header__bg-rectangle {
+  background-color: #F9BDBD;
+  width: 370px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-bottom-left-radius: 200px;
+}

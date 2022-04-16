@@ -1,0 +1,7 @@
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}

@@ -1,0 +1,9 @@
+.footer__copyright {
+  margin: 0 auto;
+  max-width: 200px;
+  font-family: "Nunito-SemiBold";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #8d8d8d;
+}

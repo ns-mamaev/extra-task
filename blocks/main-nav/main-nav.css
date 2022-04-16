@@ -1,0 +1,7 @@
+.main-nav {
+  display: flex;
+  justify-content: center;
+  column-gap: 48px;
+  position: relative;
+  left: 26px; /* для соответствия макету, есть смещение меню от центра */
+}

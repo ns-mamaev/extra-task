@@ -1,0 +1,6 @@
+.header__product-img {
+  position: absolute;
+  right: 0;
+  top: 165px;
+  z-index: 1;
+}

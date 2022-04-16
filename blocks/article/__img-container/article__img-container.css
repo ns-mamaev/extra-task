@@ -1,0 +1,6 @@
+.article__img-container {
+  height: 388px;
+  position: relative;
+  width: 426px;
+  flex-shrink: 0;
+}

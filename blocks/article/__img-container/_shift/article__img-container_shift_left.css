@@ -1,0 +1,4 @@
+.article__img-container_shift_left {
+  width: 300px;
+  transform: translateX(-100px);
+}

@@ -1,0 +1,14 @@
+.steps__step-number {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 17px;
+  top: 23px;
+  font-family: "Nunito-SemiBold", sans-serif;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 131px;
+  text-align: center;
+  color: rgba(249, 189, 189, .25);
+  z-index: 1;
+}

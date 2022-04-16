@@ -1,0 +1,6 @@
+.steps__step-img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  object-position: 50% 50%;
+}

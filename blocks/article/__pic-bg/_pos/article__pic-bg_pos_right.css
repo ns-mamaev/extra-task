@@ -1,0 +1,4 @@
+.article__pic-bg_pos_right {
+  transform: scaleX(-1);
+  margin-left: auto;
+}

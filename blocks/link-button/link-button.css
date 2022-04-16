@@ -1,0 +1,19 @@
+.link-button {
+  background: none;
+  border: none;
+  background-color: #daa520;
+  border-radius: 4px;
+  padding: 14px 24px;
+  font-family: "Nunito-Bold";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+.link-button:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgba(34, 34, 34, .2);
+  cursor: pointer;
+}

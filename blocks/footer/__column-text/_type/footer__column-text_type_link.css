@@ -1,0 +1,7 @@
+.footer__column-text_type_link {
+  transition: all 0.2s ease-out;
+}
+
+.footer__column-text_type_link:hover {
+  color: #000;
+}

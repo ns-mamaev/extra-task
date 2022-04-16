@@ -1,0 +1,10 @@
+.product-cards {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 56px 40px;
+
+}

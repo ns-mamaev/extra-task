@@ -1,0 +1,9 @@
+.footer__column-heading {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-family: "Nunito-SemiBold", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+}

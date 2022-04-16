@@ -1,0 +1,9 @@
+.main-nav__link_hightlighted {
+  font-family: "Nunito-ExtraBold", sans-serif;
+  font-weight: 800;
+  color: #daa520;
+}
+
+.main-nav__link_hightlighted:hover {
+  color: #f7c23a;
+}

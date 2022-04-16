@@ -1,0 +1,22 @@
+.product-cards__card {
+  width: 280px;
+  height: 400px;
+  overflow: hidden;
+  background-color: #F9BDBD;
+  border-radius: 0 110px 0 110px;
+  box-sizing: border-box;
+  padding: 24px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+.product-cards__card:nth-child(3n-1) {
+  background-color: #F7DEA6;
+}
+
+.product-cards__card:nth-child(3n) {
+  background-color: #A8DCEC;
+}

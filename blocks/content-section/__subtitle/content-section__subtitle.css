@@ -1,0 +1,12 @@
+.content-section__subtitle {
+  margin: 0;
+  padding: 0;
+  color: #3e3f43;
+  font-family: "Nunito-Bold", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: left;
+  order: -1;
+}

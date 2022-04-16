@@ -1,0 +1,12 @@
+.main-nav__link {
+  text-decoration: none;
+  color:rgba(34, 34, 34, 0.75);
+  font-size: 16px;
+  line-height: 22px;
+  transition: all 0.2s ease-out;
+}
+
+.main-nav__link:hover {
+  transform: translateY(-3px);
+  color: #000;
+}

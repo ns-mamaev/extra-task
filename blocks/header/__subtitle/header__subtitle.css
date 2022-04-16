@@ -1,0 +1,12 @@
+.header__subtitle {
+  margin: 16px 0;
+  padding: 0;
+  max-width: 504px;
+  color: #313235;
+  font-family: "Nunito-Bold", sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 98px;
+  position: relative;
+  z-index: 2;
+}
