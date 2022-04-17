@@ -1,5 +1,9 @@
 .header {
-  min-height: 800px;
-  position: relative;
-  padding: 0 100px 120px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+  z-index: 3;
 }

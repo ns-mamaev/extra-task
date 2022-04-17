@@ -1,18 +1,18 @@
 @import url(./vendor/normalize.css);
 @import url(./blocks/root/root.css);
 @import url(./blocks/header/header.css);
-@import url(./blocks/header/__top/header__top.css);
 @import url(./blocks/logo/logo.css);
 @import url(./blocks/logo/_place/logo_place_header.css);
 @import url(./blocks/main-nav/main-nav.css);
 @import url(./blocks/main-nav/__link/main-nav__link.css);
 @import url(./blocks/main-nav/__link/_hightlighted/main-nav__link_hightlighted.css);
-@import url(./blocks/header/__title/header__title.css);
+@import url(./blocks/title-screen/title-screen.css);
+@import url(./blocks/title-screen/__title/title-screen__title.css);
 @import url(./blocks/accent/_font-weight/accent_font-weight_bold.css);
 @import url(./blocks/accent/_font-weight/accent_font-weight_extra-bold.css);
-@import url(./blocks/header/__subtitle/header__subtitle.css);
-@import url(./blocks/header/__product-img/header__product-img.css);
-@import url(./blocks/header/__bg-rectangle/header__bg-rectangle.css);
+@import url(./blocks/title-screen/__subtitle/title-screen__subtitle.css);
+@import url(./blocks/title-screen/__product-img/title-screen__product-img.css);
+@import url(./blocks/title-screen/__bg-rectangle/title-screen__bg-rectangle.css);
 @import url(./blocks/link-button/link-button.css);
 @import url(./blocks/content/content.css);
 @import url(./blocks/content-section/content-section.css);
@@ -62,5 +62,6 @@
 
 @import url(./blocks/animation/animation-left.css);
 @import url(./blocks/animation/animation-right.css);
+@import url(./blocks/animation/animation-bottom.css);
 @import url(./blocks/hidden/hidden.css);
-@import url(./blocks/header/__top/_fixed/header__top_fixed.css);
+@import url(./blocks/header/_fixed/header_fixed.css);

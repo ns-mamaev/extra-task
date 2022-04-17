@@ -1,6 +1,6 @@
-.header__product-img {
+.title-screen__product-img {
   position: absolute;
-  right: 0;
+  right: -100px;
   top: 165px;
   z-index: 1;
 }

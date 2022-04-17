@@ -8,25 +8,25 @@
   </head>
   <body>
     <div class="page">
-      <header class="header">
-        <div class="header__top">
+        <header class="header" data-nav="home" id="home">
           <img src="./images/logo.svg" alt="Company logo" class="logo logo_place_header">
           <nav class="main-nav">
-            <a href="#" class="main-nav__link main-nav__link_hightlighted">Home</a>
-            <a href="#about" class="main-nav__link">About Us</a>
+            <a href="#home" class="main-nav__link main-nav__link_hightlighted">Home</a>
+            <a href="#about-us" class="main-nav__link">About Us</a>
             <a href="#how-it-works" class="main-nav__link">How it works</a>
             <a href="#categories" class="main-nav__link">Categories</a>
           </nav>
-        </div>
-        <h1 class="header__title" data-animation="from-left">Are you looking for <b class="span-accent">woodden furniture</b> for your place?</h1>
-        <p class="header__subtitle" data-animation="from-left">This is the Right Place</p>
-        <button href="#" class="link-button"  data-animation="from-left">Explore Furniture</button>
-        <img src="./images/header-product-img.png" alt="Main image" class="header__product-img" data-animation="from-right">
-        <div class="header__bg-rectangle"></div>
-      </header>
+        </header>
       <main class="content">
-        <section class="content-section">
-          <div class="content-section__headings" id="about">
+        <section class="title-screen">
+          <h1 class="title-screen__title" data-animation="from-left">Are you looking for <b class="span-accent">woodden furniture</b> for your place?</h1>
+          <p class="title-screen__subtitle" data-animation="from-left">This is the Right Place</p>
+          <button href="#" class="link-button"  data-animation="from-left">Explore Furniture</button>
+          <img src="./images/header-product-img.png" alt="Main image" class="title-screen__product-img" data-animation="from-right">
+          <div class="title-screen__bg-rectangle"></div>
+        </section>
+        <section class="content-section" data-nav="about-us" id="about-us">
+          <div class="content-section__headings">
             <h2 class="content-section__title" data-animation="from-right">About us</h2>
             <p class="content-section__subtitle" data-animation="from-left">Who we are</p>
           </div>
@@ -72,7 +72,7 @@
           </article> -->
         </section>
 
-        <section class="content-section" id="how-it-works">
+        <section class="content-section" data-nav="how-it-works" id="how-it-works">
           <div class="content-section__headings">
             <h2 class="content-section__title" data-animation="from-right">How it works</h2>
             <p class="content-section__subtitle" data-animation="from-left">How to custom</p>
@@ -99,10 +99,10 @@
               <p class="steps__step-number">4</p>
             </li>
           </ul>
-          <button class="link-button link-button_place_section" href="#"  data-animation="from-left">Get Personalized Now</button>
+          <button class="link-button link-button_place_section" href="#" data-animation="from-bottom">Get Personalized Now</button>
         </section>
 
-        <section class="content-section" id="categories">
+        <section class="content-section"  data-nav="categories" id="categories">
           <div class="content-section__headings">
             <h2 class="content-section__title"  data-animation="from-right">Categories</h2>
             <p class="content-section__subtitle"  data-animation="from-left">What we have</p>
@@ -138,7 +138,7 @@
       </main>
       <footer class="footer">
         <div class="footer__line"></div>
-        <div class="footer__columns">
+        <div class="footer__columns" data-animation="from-bottom">
           <div class="footer__column footer__column_type_info">
             <img src="./images/logo.svg" alt="Company logo" class="logo">
             <p class="footer__column-text footer__column-text_type_info">8(800)555-35-34</p>

@@ -33,8 +33,9 @@
 .page {
   max-width: 1152px;
   min-width: 900px;
-  min-height: 4116px; /* убери */
+  position: relative;
   margin: 0 auto;
   font-family: "Nunito-Regular", sans-serif;
   overflow: hidden;
+
 }
