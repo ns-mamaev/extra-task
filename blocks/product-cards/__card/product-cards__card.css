@@ -15,8 +15,10 @@
 
 .product-cards__card:nth-child(3n-1) {
   background-color: #F7DEA6;
+  animation-delay: 0.3s;
 }
 
 .product-cards__card:nth-child(3n) {
   background-color: #A8DCEC;
+  animation-delay: 0.6s;
 }

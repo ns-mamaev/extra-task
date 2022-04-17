@@ -59,3 +59,8 @@
 @import url(./blocks/footer/__column-text/_type/footer__column-text_type_link.css);
 @import url(./blocks/footer/__links/footer__links.css);
 @import url(./blocks/footer/__copyright/footer__copyright.css);
+
+@import url(./blocks/animation/animation-left.css);
+@import url(./blocks/animation/animation-right.css);
+@import url(./blocks/hidden/hidden.css);
+@import url(./blocks/header/__top/_fixed/header__top_fixed.css);
